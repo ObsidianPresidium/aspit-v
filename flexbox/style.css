@@ -1,0 +1,46 @@
+body {
+    background-color: hsl(212, 29%, 19%);
+}
+a, p, h1 {
+    font-family: "Open Sans", sans-serif;
+}
+header {
+    font-family: "Slabo 27px", serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+.title, main, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    height: 10em;
+}
+.page-container {
+    background-color: hsl(211, 36%, 84%);
+    border: 2px solid hsl(39, 100%, 50%);
+    border-radius: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(212, 29%, 19%);
+}
+nav a {
+    text-decoration: none;
+    color: hsl(212, 29%, 79%);
+    margin: 0.75em;
+}
+nav a:hover {
+    color: white;
+}
+main {
+    height: 15em;
+    padding: 1em 2em;
+}
+main div {
+    margin: 0.5em;
+}
