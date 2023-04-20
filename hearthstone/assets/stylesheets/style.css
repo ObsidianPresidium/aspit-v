@@ -1,0 +1,23 @@
+body {
+    font-size: 13px;
+    font-family: 'open sans', sans-serif;
+    line-height: 1.4;
+}
+table {
+    border-collapse: collapse;
+    background-color: #ece3ca;
+}
+td {
+    border: 1px solid #e4d7b3;
+    padding: 4px 8px;
+}
+.header {
+    text-align: left;
+    font-weight: bold;
+}
+.no-rarity {
+    color: #982525;
+}
+.epic {
+    color: #ab48ee;
+}
