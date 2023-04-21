@@ -92,3 +92,10 @@ a {
 .search {
   flex-grow: 5;
 }
+
+@media (max-width: 75em) {
+  .flex-form {
+    flex-direction: column;
+    min-width: 20em;
+  }
+}
