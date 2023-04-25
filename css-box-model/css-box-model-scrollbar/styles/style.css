@@ -1,0 +1,7 @@
+.vertical-scroll {
+    width: 600px;
+    height: 400px;
+    background-color: #ccc;
+    padding: 30px;
+    overflow-y: scroll;
+}

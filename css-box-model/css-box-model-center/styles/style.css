@@ -1,0 +1,11 @@
+body {
+    background-color: #ccc;
+}
+
+div {
+    max-width: 800px;
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 30px;
+    margin: 0 auto;
+}

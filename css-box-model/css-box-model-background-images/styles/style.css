@@ -1,0 +1,25 @@
+div {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: inline-block;
+    border: 5px solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div1 {
+    background-image: url("../img/img1.jpg");
+}
+
+.div2 {
+    background-image: url("../img/img2.jpg");
+}
+
+.div3 {
+    background-image: url("../img/img3.jpg");
+}
+
+.div4 {
+    background-image: url("../img/img4.jpg");
+}

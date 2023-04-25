@@ -1,0 +1,16 @@
+span {
+    background-color: green;
+    border: 30px dashed darkgreen;
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    display: inline-block;
+}
+
+.contentbox {
+    box-sizing: content-box;
+}
+
+.borderbox {
+    box-sizing: border-box;
+}
