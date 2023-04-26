@@ -2,10 +2,10 @@ div {
     width: 400px;
     height: 400px;
     background:
-        url("../img/img1.jpg") no-repeat left top,
-        url("../img/img2.jpg") no-repeat right top,
-        url("../img/img3.jpg") no-repeat left bottom,
-        url("../img/img4.jpg") no-repeat right bottom;
+        url("../img/bgimage-1.jpg") no-repeat left top,
+        url("../img/bgimage-2.jpg") no-repeat right top,
+        url("../img/bgimage-3.jpg") no-repeat left bottom,
+        url("../img/bgimage-4.jpg") no-repeat right bottom;
     background-size: 50%;
     display: inline-block;
 }

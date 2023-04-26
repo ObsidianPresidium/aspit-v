@@ -9,17 +9,17 @@ div {
 }
 
 .div1 {
-    background-image: url("../img/img1.jpg");
+    background-image: url("../img/bgimage-1.jpg");
 }
 
 .div2 {
-    background-image: url("../img/img2.jpg");
+    background-image: url("../img/bgimage-2.jpg");
 }
 
 .div3 {
-    background-image: url("../img/img3.jpg");
+    background-image: url("../img/bgimage-3.jpg");
 }
 
 .div4 {
-    background-image: url("../img/img4.jpg");
+    background-image: url("../img/bgimage-4.jpg");
 }
