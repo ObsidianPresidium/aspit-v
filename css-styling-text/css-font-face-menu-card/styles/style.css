@@ -16,32 +16,52 @@
 
 * {
     font-family: "Caviar Dreams";
+    color: black;
 }
 
 body {
     background-color: #999;
+    display: flex;
+    
 }
 
 .menu-card {
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
+    background-color: white;
 }
 
 header, footer {
-    background-color: #eee;
-    padding: 2em;
-}
-
-p {
-    color: black;
+    background-color: #ddd;
+    padding: 2em 2em 2em;
 }
 
 header h3 {
     margin: 0 0 -0.8em;
+    font-weight: normal;
+}
+
+header h3, h2 {
     text-transform: uppercase;
 }
 
-/* header {
+h2 {
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 2.67em;
+    padding: 0 0 0.5em;
+}
+
+.item {
     font-family: "Great Vibes";
-} */
+    font-size: 1.75em;
+    margin: 0 0 -1em;
+}
+
+.item + p {
+    font-size: 2em;
+    font-weight: bold;
+}
