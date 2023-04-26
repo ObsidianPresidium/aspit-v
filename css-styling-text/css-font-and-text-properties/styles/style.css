@@ -1,0 +1,52 @@
+body {
+    margin: 100px;
+    background-color: #eee;
+}
+
+div { /* Centrér indholdet */
+    margin: 0 auto;
+    max-width: 120ch;
+}
+
+h1, h3 {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, hr {
+    margin: 0;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #444;
+}
+
+h3 + p {
+    margin: -1em 0 auto;
+}
+
+a {
+    color: orange;
+}
+
+footer p {
+    text-align: right;
+}
+
+.black {
+    color: black;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.bold-italic {
+    font-style: italic;
+    font-weight: bold;
+}

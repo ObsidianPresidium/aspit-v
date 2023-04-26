@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Baloo+Bhai+2:wght@700&family=Bevan&family=Electrolize&family=Encode+Sans&family=Fredericka+the+Great&family=Modak&family=Open+Sans&family=Pridi&family=Roboto&display=swap');
+
+body {
+    margin: 0 3em;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    line-height: 2;
+    font-size: 20px;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+.baloo-bhai {
+    font-family: "Baloo Bhai 2", cursive;
+}
+
+.pridi {
+    font-family: "Pridi", serif;
+}
+
+.modak {
+    font-family: "Modak", cursive;
+}
+
+.alex-brush {
+    font-family: "Alex Brush", cursive;
+}
+
+.electrolize {
+    font-family: "Electrolize", sans-serif;
+}
+
+.bevan {
+    font-family: "Bevan", cursive;
+}
+
+.fredericka-the-great {
+    font-family: "Fredericka the Great", cursive;
+}
+
+.encode-sans {
+    font-family: "Encode Sans", sans-serif;
+}

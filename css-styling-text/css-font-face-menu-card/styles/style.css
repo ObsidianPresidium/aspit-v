@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url("../assets/caviardreams-webfont.woff2") format("woff2"),
+         url("../assets/caviardreams-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Great Vibes";
+    src: url("../assets/greatvibes-regular-webfont.woff2") format("woff2"),
+         url("../assets/greatvibes-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "Caviar Dreams";
+}
+
+body {
+    background-color: #999;
+}
+
+.menu-card {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #eee;
+    padding: 2em;
+}
+
+p {
+    color: black;
+}
+
+header h3 {
+    margin: 0 0 -0.8em;
+    text-transform: uppercase;
+}
+
+/* header {
+    font-family: "Great Vibes";
+} */
