@@ -194,5 +194,10 @@ nav a {
     padding: 1rem 2rem;
 }
 
+#toggle ~ nav {
+    display: none;
+}
 
-
+#toggle:checked ~ nav {
+    display: flex;
+}
