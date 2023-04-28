@@ -18,6 +18,7 @@
     --grayed-text: #9090a8;
     --accent: #f3f5f7;
     --container-border-radius: 1em;
+    --container-padding: 2em;
 }
 
 body {
@@ -30,7 +31,7 @@ body {
     background-color: white;
     width: 40em;
     border-radius: var(--container-border-radius);
-    padding: 2em;
+    padding: var(--container-padding);
     font-family: "Inter";
     box-shadow: 5em 5em 10em -5em #aaa; 
 }
@@ -50,12 +51,17 @@ header svg {
 
 .draganddrop {
     border-radius: 0.5em;
-    border: 0.15em dashed lightgray;
+    border-width: 0.15em;
+    border-style: dashed;
+    border-color: lightgray;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 17.5em;
+    background-color: transparent;
+    transition-property: border-color, background-color;
+    transition-duration: 500ms;
 }
 
 .draganddrop a {
@@ -63,6 +69,12 @@ header svg {
     font-weight: bold;
     text-underline-offset: 0.15em;
     text-decoration-thickness: 0.1em;
+}
+
+.draganddrop:hover {
+    border-color: #199fdb;
+    background-color: #f2f8ff;
+    transition-duration: 500ms;
 }
 
 .draganddrop img {
@@ -153,7 +165,7 @@ footer {
     border-radius: 0 0 var(--container-border-radius) var(--container-border-radius);
     min-height: 6em;
     /* En lille fy-fy som jeg nok skal rette 😉 */
-    margin: 1em -2em -2em;
+    margin: 1em calc(var(--container-padding) * -1) calc(var(--container-padding) * -1);
     display: flex;
     flex-direction: row;
     align-items: center;
