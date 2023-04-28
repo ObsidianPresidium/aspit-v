@@ -42,8 +42,10 @@ header {
     margin: 0 0 2.5em;
 }
 
-header img {
+header svg {
     width: 1.5em;
+    color: gray;
+    stroke-width: 1.75;
 }
 
 .draganddrop {
@@ -143,6 +145,7 @@ header img {
 .button-inactive {
     background-color: var(--accent);
     color: #9090a8;
+    border: none;
 }
 
 footer {
