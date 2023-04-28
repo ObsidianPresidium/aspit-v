@@ -1,0 +1,38 @@
+$nav-color: #161616;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@300;400&display=swap');
+
+body {
+    margin: 0em;
+    font-family: "Lato", sans-serif;
+}
+
+.cover-image {
+    background-image: url("../assets/hus-i-trae.jpg");
+    background-size: cover;
+    background-position: 0 30%;
+    height: 20em;
+}
+
+header {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    height: 5em;
+    background-color: $nav-color;
+    color: white;
+    padding: 0 2em;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 0.1em;
+    font-weight: lighter;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+header p a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
