@@ -64,6 +64,7 @@ h3 {
   flex-direction: column;
   background-color: white;
   margin: 0.5em;
+  width: 33%;
 }
 
 .card-container {
@@ -73,18 +74,51 @@ h3 {
 }
 
 .card img {
-  width: 15em;
-  height: 11em;
+  width: 100%;
+  height: 70%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .card div {
   padding: 0px;
-  margin: 1em;
+  margin: 1em 1em 3em;
 }
 
 .card div p {
   font-size: 0.7em;
   color: #666;
+}
+
+.selection-button-container {
+  background-image: url("../assets/hejrelunden.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selection-button-container p a {
+  border-radius: 1.25em;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  background-color: transparent;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5em 2.5em;
+  transition-property: background-color, color;
+  transition-duration: 500ms;
+}
+
+.selection-button-container p a:hover {
+  color: black;
+  background-color: white;
+  transition-property: background-color, color;
+  transition-duration: 500ms;
 }/*# sourceMappingURL=style.css.map */
