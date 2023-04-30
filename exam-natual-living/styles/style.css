@@ -121,4 +121,33 @@ h3 {
   background-color: white;
   transition-property: background-color, color;
   transition-duration: 500ms;
+}
+
+footer {
+  background-color: #161616;
+  color: #666;
+}
+
+.social-media {
+  display: flex;
+  justify-content: end;
+  padding: 3em;
+}
+
+.social-media svg {
+  margin: 0.15em;
+  width: 1.5em;
+}
+
+.social-media svg path {
+  fill: #666;
+}
+
+.links-and-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links-and-info div a:before {
+  content: "- ";
 }/*# sourceMappingURL=style.css.map */

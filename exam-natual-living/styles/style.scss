@@ -1,6 +1,7 @@
 $nav-color: #161616;
 $selection-button-top-padding: 2.5em;
 $animation-duration: 500ms;
+$accent-color: #666;
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@300;400&display=swap');
 
@@ -91,7 +92,7 @@ h3 {
 
 .card div p {
     font-size: 0.7em;
-    color: #666;
+    color: $accent-color
 }
 
 
@@ -128,4 +129,33 @@ h3 {
 
     transition-property: background-color, color;
     transition-duration: $animation-duration;
+}
+
+footer {
+    background-color: $nav-color;
+    color: $accent-color;
+}
+
+.social-media {
+    display: flex;
+    justify-content:end;
+    padding: 3em;
+}
+
+.social-media svg {
+    margin: 0.15em;
+    width: 1.5em;
+}
+
+.social-media svg path {
+    fill: $accent-color;
+}
+
+.links-and-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-and-info div a:before {
+    content: "- ";
 }
