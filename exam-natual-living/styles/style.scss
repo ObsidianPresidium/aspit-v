@@ -1,4 +1,4 @@
-$nav-color: #161616;
+$nav-color: #2a2a2a;
 $selection-button-top-padding: 2.5em;
 $animation-duration: 500ms;
 $accent-color: #666;
@@ -95,6 +95,16 @@ h3 {
     color: $accent-color
 }
 
+.section-starter-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transform: translate(calc(50vw - 50%) /* centrér. halvdelen af viewport width - halvdelen af objektets størrelse */, -100%);
+}
+
+.section-starter-container svg {
+    color: #2a2a2a;
+}
 
 .selection-button-container {
     background-image: url("../assets/hejrelunden.jpg");
@@ -134,6 +144,9 @@ h3 {
 footer {
     background-color: $nav-color;
     color: $accent-color;
+    font-family: "Lato";
+    font-weight: bold;
+    padding: 0 0 5em;
 }
 
 .social-media {
@@ -154,8 +167,29 @@ footer {
 .links-and-info {
     display: flex;
     justify-content: space-between;
+    margin: 0 5em;
+}
+
+.links-and-info div {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-and-info div a {
+    color: $accent-color;
+    text-underline-offset: 0.2em;
+    text-decoration-color: #444;
+    text-decoration-thickness: 0.1em;
 }
 
 .links-and-info div a:before {
     content: "- ";
+}
+
+.links-and-info div p a:before {
+    content: ""; // Fix mailadresse med - foran
+}
+
+.links-and-info div p {
+    margin: 0 0 1.2em;
 }

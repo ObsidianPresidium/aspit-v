@@ -16,7 +16,7 @@ header {
   align-items: end;
   justify-content: space-between;
   height: 5em;
-  background-color: #161616;
+  background-color: #2a2a2a;
   color: white;
   padding: 0 2em;
 }
@@ -90,6 +90,17 @@ h3 {
   color: #666;
 }
 
+.section-starter-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  transform: translate(calc(50vw - 50%), -100%);
+}
+
+.section-starter-container svg {
+  color: #2a2a2a;
+}
+
 .selection-button-container {
   background-image: url("../assets/hejrelunden.jpg");
   background-repeat: no-repeat;
@@ -124,8 +135,11 @@ h3 {
 }
 
 footer {
-  background-color: #161616;
+  background-color: #2a2a2a;
   color: #666;
+  font-family: "Lato";
+  font-weight: bold;
+  padding: 0 0 5em;
 }
 
 .social-media {
@@ -146,8 +160,29 @@ footer {
 .links-and-info {
   display: flex;
   justify-content: space-between;
+  margin: 0 5em;
+}
+
+.links-and-info div {
+  display: flex;
+  flex-direction: column;
+}
+
+.links-and-info div a {
+  color: #666;
+  text-underline-offset: 0.2em;
+  text-decoration-color: #444;
+  text-decoration-thickness: 0.1em;
 }
 
 .links-and-info div a:before {
   content: "- ";
+}
+
+.links-and-info div p a:before {
+  content: "";
+}
+
+.links-and-info div p {
+  margin: 0 0 1.2em;
 }/*# sourceMappingURL=style.css.map */
