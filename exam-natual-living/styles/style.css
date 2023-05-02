@@ -161,6 +161,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin: 0 5em;
+  font-size: 1em;
 }
 
 .links-and-info div {
