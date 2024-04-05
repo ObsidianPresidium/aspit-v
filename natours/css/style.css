@@ -35,17 +35,17 @@ body {
     position: relative;
 }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 40px;
     left: 40px;
 }
 
-.logo {
+.header__logo {
     height: 35px;
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -59,9 +59,10 @@ body {
     margin-bottom: 60px;
 }
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
     font-size: 60px;
+    text-shadow: rgba(0,0,0,0.2) 2px 2px 2px;
     font-weight: 400;
     letter-spacing: 35px;
     animation-name: moveInLeft;
@@ -69,7 +70,7 @@ body {
     animation-timing-function: ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 20px;
     font-weight: 400px;
@@ -132,7 +133,7 @@ body {
     box-shadow: 0 5px 10px rgba(0,0,0,0.2)
 }
 
-.btn-white {
+.btn--white {
     background-color: #fff;
     color: #777;
 }
@@ -150,7 +151,7 @@ body {
     transition: all 400ms;
 }
 
-.btn-white::after {
+.btn--white::after {
     background-color: #fff;
 }
 
@@ -171,7 +172,7 @@ body {
     }
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveInBottom 500ms ease-out 750ms;
     animation-fill-mode: backwards;
 }
